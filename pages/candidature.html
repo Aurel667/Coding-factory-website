@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/international-telephone-input.css" />
+    <link rel="icon" href="/img/logo-supdeco.png">
+    <title>Je candidate | Espace candidature du groupe Supdeco de Dakar</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md p-0">
+            <div class="container">
+                <a class="navbar-brand p-0" href="index.html">
+                    <img src="/img/logo_white.png" style="width: 62px;" alt="logo supdeco">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-bold">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">NOUS CONTACTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="apropos.html">A PROPOS</a>
+                        </li>
+                    </ul>
+                </div>
+          </div>
+        </nav>
+    </header>
+    <main class="my-5">
+        <div class="row banner p-5">
+            <div class="col-12">
+                <h1 class="p-2">Candidature</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-4 d-lg-block d-sm-none">
+                    <img class="w-100" src="/img/candidature.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 ">
+                    <h3>Candidature en ligne</h3>
+                    <p class="text-secondary text-1" style="font-size: 12px;">
+                        Grâce à la candidature en ligne en 3 étapes simples, vous allez pouvoir compléter et soumettre votre dossier.
+                        Si vous ne disposez pas de toutes les pièces demandées, vous pouvez suspendre votre candidature le temps de les rassembler et de les scanner.
+                    </p>
+                    <form action="">
+                        <div class="row my-3">
+                            <label for="profession">Vous êtes <span class="text-danger">*</span></label>
+                            <div class="col-4 p-3">
+                                <input type="radio" value="Professionnel" name="profession" required>
+                                <label for="professionnel">Professionel</label>
+                            </div>
+                            <div class="col-3 p-3">
+                                <input type="radio" value="Etudiant" name="profession" required>
+                                <label for="etudiant">Étudiant</label>
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <label for="filiere">Filière <span class="text-danger">*</span></label>
+                            <div class="col-12">
+                                <select name="filiere" class="p-2 w-100" id="filiere" required>
+                                    <option value="choix" selected disabled>Choisissez votre filière</option>
+                                    <option value="Informatique-Ingénierie">Informatique-Ingénierie</option>
+                                    <option value="Management">Management</option>
+                                    <option value="Transport et logistique">Transport et logistique</option>
+                                    <option value="Droit">Droit</option>
+                                    <option value="Management public">Management public</option>
+                                    <option value="Langues et communication"></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-6 col-md-12 d-grid">
+                                <label for="prenom">Prénom(s) <span class="text-danger">*</span></label>
+                                <input type="text" class="w-100" maxlength="30" minlength="3" required>
+                            </div>
+                            <div class="col-lg-6 col-md-12 d-grid">
+                                <label for="nom">Nom <span class="text-danger">*</span></label>
+                                <input type="text" class="w-100" maxlength="30" minlength="3" required>
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-6 col-md-12 d-grid">
+                                <label for="mail">Email <span class="text-danger">*</span></label>
+                                <input type="email" class="w-100" maxlength="30" minlength="3" required>
+                            </div>
+                            <div class="col-lg-6 col-md-12 d-grid">
+                                <label for="phone">Téléphone <span class="text-danger">*</span></label>
+                                <div class="iti">
+                                    <input type="tel" class="w-100 py-2" name="phone" required>
+                                </div>                
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-6 col-md-12 d-grid">
+                                <label for="niveau">Niveau d'étude actuel <span class="text-danger">*</span></label>
+                                <select name="niveau" class="p-3" id="niveau" required>
+                                    <option value="none" disabled selected>--Niveau d'étude actuel</option>
+                                    <option value="Bac">Bac</option>
+                                    <option value="Bac+1">Bac+1</option>
+                                    <option value="Bac+2">Bac+2</option>
+                                    <option value="Bac+3">Bac+3</option>
+                                    <option value="Bac+4">Bac+4</option>
+                                    <option value="Bac+5">Bac+5</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-8 col-md-12 my-2">
+                                <input type="checkbox" name="reconversion" id="reconversion">
+                                <label for="reconversion">Je suis en reconversion professionnelle</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12 d-flex ">
+                            <input type="checkbox" id="accepter" required>
+                            <label for="accepter" class="text-secondary text-1 my-3" style="font-size: 12px;"><span class="text-danger">*</span> Dans le cadre de la réglementation sur la protection des données, j'accepte d'être contacté par email et téléphone.</label>
+                        </div>
+                        <button class="btn">Envoyer</button>
+                        <p class="text-secondary text-1 my-3" style="font-size: 15px;">
+                            <span class="text-danger">*</span> Les champs possédant ce signe sont obligatoires.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+    <footer>
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-4 py-5">
+                    <img src="/img/logo-supdeco.png" alt="logosupdeco">
+                </div>
+                <div class="col">
+                    <h2>Groupe SupDeCo Dakar</h2>
+                    <p>
+                        7, Avenue Faidherbe BP 21345-Dakar <br>
+                        Tél. : +221 33 849 69 19 <br>
+                        Tél. : +221 33 859 95 95 <br>
+                        E-mail : admission@supdeco.sn <br>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-2" id="reseaux">
+                    <h4>Suivez nous</h4>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col p-3">
+            &copy; Supdeco 2023
+        </div>
+    </footer>
+    <script src="/js/international-telephone-input.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

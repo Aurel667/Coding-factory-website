@@ -1,0 +1,115 @@
+/*
+    Code couleur Supdeco
+    Jaune : rgb(247, 206,14) ; hex : #f7ce0e
+    Bleu : rgb(25, 74, 152) ; hex : #194a98
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+ul {
+    top: 100% !important;
+    transform: translateY(0%) !important;
+}
+
+.iti {
+    position: relative;
+    display: inline-block;
+}
+
+input[type=tel] {
+    padding-right: 6px;
+    padding-left: 52px;
+    margin-left: 0;
+    position: relative;
+    z-index: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 0;
+    border: 1px solid #CCC;
+    /* width: 270px;
+    height: 35px;
+    padding: 6px 12px; */
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 100%;
+    color: inherit;
+}
+
+header{
+    box-shadow: #000 0px 0px 3px;
+    background-color: #194a98;
+}
+.carousel-item img{
+    width: 50%;
+}
+.nav-item a{
+    color: #fff;
+}
+.nav-item a:hover{
+    color: #f7ce0e;
+    transition: 0.2s;
+}
+.btn{
+    background-color: #194a98;
+    color: #fff;
+}
+.btn:hover{
+    background-color:#fff !important;;
+}
+.hero{
+    align-items: center;
+    color: #194a98;
+    font-weight: bold;
+}
+.title1{
+    width: fit-content;
+    color: #194a98;
+}
+.banner-contact{
+    background-image: url(../img/contacter.jpg);
+}
+.banner{
+    background-position: center;
+    background-size: 100%;
+}
+.banner h1{
+    background-color: #194a98;
+    width: fit-content;
+    color: #fff;
+}
+.hero-inside img{
+    position: absolute;
+    right: 10%;
+}
+footer {
+    background: #194a98 ;
+    color: #fff;
+    text-align: center;
+}
+input {
+    padding: 3%;
+}
+#reseaux .bi{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+#reseaux .bi:hover{
+    color: #f7ce0e;
+    font-size: 30px;
+    transition: .3s;
+}
+.ecran-pc{
+    border: #000 15px solid;
+    border-radius: 12px 12px 0 0;
+    width: 90%;
+    padding: 0 20%;
+}
+.clavier-pc{
+    border:#000  6px solid;
+    border-radius: 0 0 12px 12px;
+}
